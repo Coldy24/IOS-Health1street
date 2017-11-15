@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		272DC0801FBA76E1009A6544 /* bg_indego_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 272DC07D1FBA76E0009A6544 /* bg_indego_2.png */; };
+		272DC0811FBA76E1009A6544 /* bg_indego_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 272DC07E1FBA76E0009A6544 /* bg_indego_1.png */; };
+		272DC0821FBA76E1009A6544 /* bg_indego_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 272DC07F1FBA76E1009A6544 /* bg_indego_3.png */; };
 		272E43C71FB9E32B00C8EF42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272E43C61FB9E32B00C8EF42 /* AppDelegate.swift */; };
 		272E43C91FB9E32B00C8EF42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272E43C81FB9E32B00C8EF42 /* ViewController.swift */; };
 		272E43CC1FB9E32B00C8EF42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272E43CA1FB9E32B00C8EF42 /* Main.storyboard */; };
@@ -15,9 +18,36 @@
 		272E43DC1FB9E41300C8EF42 /* ic_settings_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 272E43D91FB9E41300C8EF42 /* ic_settings_white.png */; };
 		272E43DD1FB9E41300C8EF42 /* ic_assignment_ind_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 272E43DA1FB9E41300C8EF42 /* ic_assignment_ind_white.png */; };
 		272E43DE1FB9E41300C8EF42 /* ic_place_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 272E43DB1FB9E41300C8EF42 /* ic_place_white.png */; };
+		2755D7E21FBB304500ACEF4A /* ic_patient.png in Resources */ = {isa = PBXBuildFile; fileRef = 2755D7E11FBB304200ACEF4A /* ic_patient.png */; };
+		27668D021FBC61040026BB61 /* PatientAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27668D011FBC61040026BB61 /* PatientAdapter.swift */; };
+		27DC42A51FBC93F900D4EBA6 /* ic_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DC42A41FBC93F700D4EBA6 /* ic_user.png */; };
+		27DC42A71FBC948200D4EBA6 /* ic_call.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DC42A61FBC948000D4EBA6 /* ic_call.png */; };
+		27DC42A91FBC94C800D4EBA6 /* ic_message.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DC42A81FBC94C700D4EBA6 /* ic_message.png */; };
+		27DC42AD1FBC955D00D4EBA6 /* ic_circle_gre.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DC42AA1FBC955600D4EBA6 /* ic_circle_gre.png */; };
+		27DC42AE1FBC955D00D4EBA6 /* ic_circle_blu.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DC42AB1FBC955900D4EBA6 /* ic_circle_blu.png */; };
+		27DC42AF1FBC955D00D4EBA6 /* ic_circle_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DC42AC1FBC955B00D4EBA6 /* ic_circle_red.png */; };
+		27DC42B41FBC995200D4EBA6 /* ic_o2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DC42B21FBC995100D4EBA6 /* ic_o2.png */; };
+		27DC42B51FBC995200D4EBA6 /* ic_cardiogram.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DC42B31FBC995200D4EBA6 /* ic_cardiogram.png */; };
+		D7CFE1FC6B599454B8FEFD4C /* Pods_Health1st.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D59B5CA8F5E37FF7C7EEAFF /* Pods_Health1st.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2739657E1FBB435800EDA0E2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		272DC07D1FBA76E0009A6544 /* bg_indego_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_indego_2.png; sourceTree = "<group>"; };
+		272DC07E1FBA76E0009A6544 /* bg_indego_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_indego_1.png; sourceTree = "<group>"; };
+		272DC07F1FBA76E1009A6544 /* bg_indego_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_indego_3.png; sourceTree = "<group>"; };
 		272E43C31FB9E32B00C8EF42 /* Health1st.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Health1st.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		272E43C61FB9E32B00C8EF42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		272E43C81FB9E32B00C8EF42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +58,19 @@
 		272E43D91FB9E41300C8EF42 /* ic_settings_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_settings_white.png; sourceTree = "<group>"; };
 		272E43DA1FB9E41300C8EF42 /* ic_assignment_ind_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_assignment_ind_white.png; sourceTree = "<group>"; };
 		272E43DB1FB9E41300C8EF42 /* ic_place_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_place_white.png; sourceTree = "<group>"; };
+		2755D7E11FBB304200ACEF4A /* ic_patient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_patient.png; sourceTree = "<group>"; };
+		27668D011FBC61040026BB61 /* PatientAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientAdapter.swift; sourceTree = "<group>"; };
+		27DC42A41FBC93F700D4EBA6 /* ic_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_user.png; sourceTree = "<group>"; };
+		27DC42A61FBC948000D4EBA6 /* ic_call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_call.png; sourceTree = "<group>"; };
+		27DC42A81FBC94C700D4EBA6 /* ic_message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_message.png; sourceTree = "<group>"; };
+		27DC42AA1FBC955600D4EBA6 /* ic_circle_gre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_circle_gre.png; sourceTree = "<group>"; };
+		27DC42AB1FBC955900D4EBA6 /* ic_circle_blu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_circle_blu.png; sourceTree = "<group>"; };
+		27DC42AC1FBC955B00D4EBA6 /* ic_circle_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_circle_red.png; sourceTree = "<group>"; };
+		27DC42B21FBC995100D4EBA6 /* ic_o2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_o2.png; sourceTree = "<group>"; };
+		27DC42B31FBC995200D4EBA6 /* ic_cardiogram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_cardiogram.png; sourceTree = "<group>"; };
+		77EEE230EA070E9EC96736B9 /* Pods-Health1st.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health1st.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Health1st/Pods-Health1st.debug.xcconfig"; sourceTree = "<group>"; };
+		8EB3EB89222F577E49599B6D /* Pods-Health1st.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health1st.release.xcconfig"; path = "Pods/Target Support Files/Pods-Health1st/Pods-Health1st.release.xcconfig"; sourceTree = "<group>"; };
+		9D59B5CA8F5E37FF7C7EEAFF /* Pods_Health1st.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Health1st.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7CFE1FC6B599454B8FEFD4C /* Pods_Health1st.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +90,8 @@
 			children = (
 				272E43C51FB9E32B00C8EF42 /* Health1st */,
 				272E43C41FB9E32B00C8EF42 /* Products */,
+				71485FBAEEC1CE732B549D1E /* Pods */,
+				8EAA22F820B07DD18D2B1591 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +113,7 @@
 				272E43CD1FB9E32B00C8EF42 /* Assets.xcassets */,
 				272E43CF1FB9E32B00C8EF42 /* LaunchScreen.storyboard */,
 				272E43D21FB9E32B00C8EF42 /* Info.plist */,
+				27668D011FBC61040026BB61 /* PatientAdapter.swift */,
 			);
 			path = Health1st;
 			sourceTree = "<group>";
@@ -74,11 +121,40 @@
 		272E43D81FB9E3C700C8EF42 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				27DC42B31FBC995200D4EBA6 /* ic_cardiogram.png */,
+				27DC42B21FBC995100D4EBA6 /* ic_o2.png */,
+				27DC42A41FBC93F700D4EBA6 /* ic_user.png */,
+				27DC42A81FBC94C700D4EBA6 /* ic_message.png */,
+				27DC42A61FBC948000D4EBA6 /* ic_call.png */,
+				27DC42AB1FBC955900D4EBA6 /* ic_circle_blu.png */,
+				27DC42AA1FBC955600D4EBA6 /* ic_circle_gre.png */,
+				27DC42AC1FBC955B00D4EBA6 /* ic_circle_red.png */,
+				2755D7E11FBB304200ACEF4A /* ic_patient.png */,
 				272E43DA1FB9E41300C8EF42 /* ic_assignment_ind_white.png */,
 				272E43DB1FB9E41300C8EF42 /* ic_place_white.png */,
+				272DC07E1FBA76E0009A6544 /* bg_indego_1.png */,
+				272DC07D1FBA76E0009A6544 /* bg_indego_2.png */,
+				272DC07F1FBA76E1009A6544 /* bg_indego_3.png */,
 				272E43D91FB9E41300C8EF42 /* ic_settings_white.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		71485FBAEEC1CE732B549D1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77EEE230EA070E9EC96736B9 /* Pods-Health1st.debug.xcconfig */,
+				8EB3EB89222F577E49599B6D /* Pods-Health1st.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8EAA22F820B07DD18D2B1591 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D59B5CA8F5E37FF7C7EEAFF /* Pods_Health1st.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,9 +164,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 272E43D51FB9E32B00C8EF42 /* Build configuration list for PBXNativeTarget "Health1st" */;
 			buildPhases = (
+				18E8D6FA57AC7589BE8F7548 /* [CP] Check Pods Manifest.lock */,
 				272E43BF1FB9E32B00C8EF42 /* Sources */,
 				272E43C01FB9E32B00C8EF42 /* Frameworks */,
 				272E43C11FB9E32B00C8EF42 /* Resources */,
+				2739657E1FBB435800EDA0E2 /* Embed Frameworks */,
+				81B72A75FF8453B4403BC02D /* [CP] Embed Pods Frameworks */,
+				1C2BB8E679BC7C58B6DCFFA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,22 +220,93 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27DC42A71FBC948200D4EBA6 /* ic_call.png in Resources */,
+				27DC42AF1FBC955D00D4EBA6 /* ic_circle_red.png in Resources */,
+				272DC0811FBA76E1009A6544 /* bg_indego_1.png in Resources */,
 				272E43DC1FB9E41300C8EF42 /* ic_settings_white.png in Resources */,
 				272E43DE1FB9E41300C8EF42 /* ic_place_white.png in Resources */,
 				272E43D11FB9E32B00C8EF42 /* LaunchScreen.storyboard in Resources */,
+				27DC42B51FBC995200D4EBA6 /* ic_cardiogram.png in Resources */,
+				272DC0821FBA76E1009A6544 /* bg_indego_3.png in Resources */,
+				272DC0801FBA76E1009A6544 /* bg_indego_2.png in Resources */,
 				272E43DD1FB9E41300C8EF42 /* ic_assignment_ind_white.png in Resources */,
+				27DC42A51FBC93F900D4EBA6 /* ic_user.png in Resources */,
 				272E43CE1FB9E32B00C8EF42 /* Assets.xcassets in Resources */,
+				27DC42AE1FBC955D00D4EBA6 /* ic_circle_blu.png in Resources */,
+				2755D7E21FBB304500ACEF4A /* ic_patient.png in Resources */,
 				272E43CC1FB9E32B00C8EF42 /* Main.storyboard in Resources */,
+				27DC42AD1FBC955D00D4EBA6 /* ic_circle_gre.png in Resources */,
+				27DC42A91FBC94C800D4EBA6 /* ic_message.png in Resources */,
+				27DC42B41FBC995200D4EBA6 /* ic_o2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18E8D6FA57AC7589BE8F7548 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Health1st-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C2BB8E679BC7C58B6DCFFA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Health1st/Pods-Health1st-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81B72A75FF8453B4403BC02D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Health1st/Pods-Health1st-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Health1st/Pods-Health1st-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		272E43BF1FB9E32B00C8EF42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27668D021FBC61040026BB61 /* PatientAdapter.swift in Sources */,
 				272E43C91FB9E32B00C8EF42 /* ViewController.swift in Sources */,
 				272E43C71FB9E32B00C8EF42 /* AppDelegate.swift in Sources */,
 			);
@@ -292,7 +443,9 @@
 		};
 		272E43D61FB9E32B00C8EF42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77EEE230EA070E9EC96736B9 /* Pods-Health1st.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G325PL7HW2;
@@ -307,7 +460,9 @@
 		};
 		272E43D71FB9E32B00C8EF42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB3EB89222F577E49599B6D /* Pods-Health1st.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G325PL7HW2;

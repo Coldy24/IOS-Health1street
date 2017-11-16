@@ -13,7 +13,7 @@ class PatientAdapter
 {
     /* MARK - : String */
     fileprivate var sName:String! = nil
-    private var sBlood:String! = nil
+    fileprivate var sBlood:String! = nil
     
     /* MARK - : Integer */
     fileprivate var mAge:Int! = 0

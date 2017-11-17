@@ -18,8 +18,15 @@
 		272E43DC1FB9E41300C8EF42 /* ic_settings_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 272E43D91FB9E41300C8EF42 /* ic_settings_white.png */; };
 		272E43DD1FB9E41300C8EF42 /* ic_assignment_ind_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 272E43DA1FB9E41300C8EF42 /* ic_assignment_ind_white.png */; };
 		272E43DE1FB9E41300C8EF42 /* ic_place_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 272E43DB1FB9E41300C8EF42 /* ic_place_white.png */; };
+		27497C281FBEFDE10058D375 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27497C271FBEFDE10058D375 /* MapViewController.swift */; };
+		27497C2C1FBF08D00058D375 /* ApiGatewayMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27497C2B1FBF08CF0058D375 /* ApiGatewayMac.framework */; };
+		27497C2D1FBF08D00058D375 /* ApiGatewayMac.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27497C2B1FBF08CF0058D375 /* ApiGatewayMac.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27497C341FBF0E630058D375 /* NMapViewResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27497C331FBF0E620058D375 /* NMapViewResources.swift */; };
+		27497C371FBF12510058D375 /* NMapViewerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27497C361FBF12510058D375 /* NMapViewerSDK.framework */; };
 		2755D7E21FBB304500ACEF4A /* ic_patient.png in Resources */ = {isa = PBXBuildFile; fileRef = 2755D7E11FBB304200ACEF4A /* ic_patient.png */; };
 		27668D021FBC61040026BB61 /* PatientAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27668D011FBC61040026BB61 /* PatientAdapter.swift */; };
+		277D16B31FBDE869006C9EE7 /* ic_sync_white_32dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 277D16B21FBDE867006C9EE7 /* ic_sync_white_32dp.png */; };
+		277D16B51FBDEFC7006C9EE7 /* PublicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277D16B41FBDEFC7006C9EE7 /* PublicData.swift */; };
 		27DC42A51FBC93F900D4EBA6 /* ic_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DC42A41FBC93F700D4EBA6 /* ic_user.png */; };
 		27DC42A71FBC948200D4EBA6 /* ic_call.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DC42A61FBC948000D4EBA6 /* ic_call.png */; };
 		27DC42A91FBC94C800D4EBA6 /* ic_message.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DC42A81FBC94C700D4EBA6 /* ic_message.png */; };
@@ -32,15 +39,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2739657E1FBB435800EDA0E2 /* Embed Frameworks */ = {
+		27497C2E1FBF08D00058D375 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				27497C2D1FBF08D00058D375 /* ApiGatewayMac.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -58,8 +66,16 @@
 		272E43D91FB9E41300C8EF42 /* ic_settings_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_settings_white.png; sourceTree = "<group>"; };
 		272E43DA1FB9E41300C8EF42 /* ic_assignment_ind_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_assignment_ind_white.png; sourceTree = "<group>"; };
 		272E43DB1FB9E41300C8EF42 /* ic_place_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_place_white.png; sourceTree = "<group>"; };
+		27497C271FBEFDE10058D375 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		27497C2B1FBF08CF0058D375 /* ApiGatewayMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ApiGatewayMac.framework; sourceTree = "<group>"; };
+		27497C2F1FBF08ED0058D375 /* NMapViewerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMapViewerSDK.framework; path = "../../Downloads/maps.ios-master/Frameworks/NMapViewerSDK.framework"; sourceTree = "<group>"; };
+		27497C321FBF0A500058D375 /* MapHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapHeader.h; sourceTree = "<group>"; };
+		27497C331FBF0E620058D375 /* NMapViewResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NMapViewResources.swift; sourceTree = "<group>"; };
+		27497C361FBF12510058D375 /* NMapViewerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMapViewerSDK.framework; path = "maps.ios-master/Frameworks/NMapViewerSDK.framework"; sourceTree = "<group>"; };
 		2755D7E11FBB304200ACEF4A /* ic_patient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_patient.png; sourceTree = "<group>"; };
 		27668D011FBC61040026BB61 /* PatientAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientAdapter.swift; sourceTree = "<group>"; };
+		277D16B21FBDE867006C9EE7 /* ic_sync_white_32dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_sync_white_32dp.png; sourceTree = "<group>"; };
+		277D16B41FBDEFC7006C9EE7 /* PublicData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicData.swift; sourceTree = "<group>"; };
 		27DC42A41FBC93F700D4EBA6 /* ic_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_user.png; sourceTree = "<group>"; };
 		27DC42A61FBC948000D4EBA6 /* ic_call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_call.png; sourceTree = "<group>"; };
 		27DC42A81FBC94C700D4EBA6 /* ic_message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_message.png; sourceTree = "<group>"; };
@@ -78,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27497C371FBF12510058D375 /* NMapViewerSDK.framework in Frameworks */,
+				27497C2C1FBF08D00058D375 /* ApiGatewayMac.framework in Frameworks */,
 				D7CFE1FC6B599454B8FEFD4C /* Pods_Health1st.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,6 +106,7 @@
 		272E43BA1FB9E32B00C8EF42 = {
 			isa = PBXGroup;
 			children = (
+				27497C2B1FBF08CF0058D375 /* ApiGatewayMac.framework */,
 				272E43C51FB9E32B00C8EF42 /* Health1st */,
 				272E43C41FB9E32B00C8EF42 /* Products */,
 				71485FBAEEC1CE732B549D1E /* Pods */,
@@ -109,11 +128,15 @@
 				272E43D81FB9E3C700C8EF42 /* Resources */,
 				272E43C61FB9E32B00C8EF42 /* AppDelegate.swift */,
 				272E43C81FB9E32B00C8EF42 /* ViewController.swift */,
+				27497C271FBEFDE10058D375 /* MapViewController.swift */,
+				27497C331FBF0E620058D375 /* NMapViewResources.swift */,
 				272E43CA1FB9E32B00C8EF42 /* Main.storyboard */,
 				272E43CD1FB9E32B00C8EF42 /* Assets.xcassets */,
 				272E43CF1FB9E32B00C8EF42 /* LaunchScreen.storyboard */,
 				272E43D21FB9E32B00C8EF42 /* Info.plist */,
 				27668D011FBC61040026BB61 /* PatientAdapter.swift */,
+				277D16B41FBDEFC7006C9EE7 /* PublicData.swift */,
+				27497C321FBF0A500058D375 /* MapHeader.h */,
 			);
 			path = Health1st;
 			sourceTree = "<group>";
@@ -121,6 +144,7 @@
 		272E43D81FB9E3C700C8EF42 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				277D16B21FBDE867006C9EE7 /* ic_sync_white_32dp.png */,
 				27DC42B31FBC995200D4EBA6 /* ic_cardiogram.png */,
 				27DC42B21FBC995100D4EBA6 /* ic_o2.png */,
 				27DC42A41FBC93F700D4EBA6 /* ic_user.png */,
@@ -152,6 +176,8 @@
 		8EAA22F820B07DD18D2B1591 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27497C2F1FBF08ED0058D375 /* NMapViewerSDK.framework */,
+				27497C361FBF12510058D375 /* NMapViewerSDK.framework */,
 				9D59B5CA8F5E37FF7C7EEAFF /* Pods_Health1st.framework */,
 			);
 			name = Frameworks;
@@ -168,9 +194,10 @@
 				272E43BF1FB9E32B00C8EF42 /* Sources */,
 				272E43C01FB9E32B00C8EF42 /* Frameworks */,
 				272E43C11FB9E32B00C8EF42 /* Resources */,
-				2739657E1FBB435800EDA0E2 /* Embed Frameworks */,
 				81B72A75FF8453B4403BC02D /* [CP] Embed Pods Frameworks */,
 				1C2BB8E679BC7C58B6DCFFA9 /* [CP] Copy Pods Resources */,
+				27497C2E1FBF08D00058D375 /* Embed Frameworks */,
+				27497C351FBF0FD10058D375 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -232,6 +259,7 @@
 				272E43DD1FB9E41300C8EF42 /* ic_assignment_ind_white.png in Resources */,
 				27DC42A51FBC93F900D4EBA6 /* ic_user.png in Resources */,
 				272E43CE1FB9E32B00C8EF42 /* Assets.xcassets in Resources */,
+				277D16B31FBDE869006C9EE7 /* ic_sync_white_32dp.png in Resources */,
 				27DC42AE1FBC955D00D4EBA6 /* ic_circle_blu.png in Resources */,
 				2755D7E21FBB304500ACEF4A /* ic_patient.png in Resources */,
 				272E43CC1FB9E32B00C8EF42 /* Main.storyboard in Resources */,
@@ -277,6 +305,20 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Health1st/Pods-Health1st-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		27497C351FBF0FD10058D375 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/Users/yeop/Documents/Health1st/maps.ios-master/Scripts/strip-frameworks.sh";
+		};
 		81B72A75FF8453B4403BC02D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -306,8 +348,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				277D16B51FBDEFC7006C9EE7 /* PublicData.swift in Sources */,
 				27668D021FBC61040026BB61 /* PatientAdapter.swift in Sources */,
 				272E43C91FB9E32B00C8EF42 /* ViewController.swift in Sources */,
+				27497C281FBEFDE10058D375 /* MapViewController.swift in Sources */,
+				27497C341FBF0E630058D375 /* NMapViewResources.swift in Sources */,
 				272E43C71FB9E32B00C8EF42 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +430,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -435,6 +484,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -445,14 +498,30 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 77EEE230EA070E9EC96736B9 /* Pods-Health1st.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G325PL7HW2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/maps.ios-master/Frameworks",
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/maps.ios-master/Frameworks\"",
+				);
 				INFOPLIST_FILE = Health1st/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"PopupDialog\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-ObjC",
+					"-lxml2",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.blog.yeop9657.Health1st;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/yeop/Documents/Health1st/Health1st/MapHeader.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,14 +531,30 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8EB3EB89222F577E49599B6D /* Pods-Health1st.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G325PL7HW2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/maps.ios-master/Frameworks",
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/maps.ios-master/Frameworks\"",
+				);
 				INFOPLIST_FILE = Health1st/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"PopupDialog\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-ObjC",
+					"-lxml2",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.blog.yeop9657.Health1st;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/yeop/Documents/Health1st/Health1st/MapHeader.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

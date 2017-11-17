@@ -28,11 +28,21 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate {
     @IBOutlet weak var iv_PatientFace: UIImageView!
     @IBOutlet weak var iv_PatientState: UIImageView!
     
+    /* MARK - : String Variable */
+    fileprivate var sPatientTel:String! = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    }
     
-        /* POINT - : Get Patient Information */
-        getPatientData(sTelNumber:"01043359311")
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        /* POINT - : UserDefalut */
+        let defaluts = UserDefaults.standard
+        if let sPhone = defaluts.string(forKey: PublicData.SHREAD_PATIENT_PHONE) { getPatientData(sTelNumber: sPhone) }
+        else { showEditAlert(title: "환자 휴대폰 번호 입력", message: "환자의 휴대폰 번호를 입력해주세요.") }
     }
 
     override func didReceiveMemoryWarning() {
@@ -88,6 +98,23 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate {
         }
     }
     
+    func showEditAlert(title:String, message:String) {
+        
+        /* POINT - : Alert */
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alert.addTextField { mTextFiled in mTextFiled.keyboardType = UIKeyboardType.namePhonePad }
+        alert.addAction(UIAlertAction(title: "확인", style: .default, handler: { [weak alert] (_) in
+            
+            if let sTel = alert?.textFields![0].text {
+                /* POINT - : Save Patient Phone-Number & Get Patient Data */
+                UserDefaults.standard.set(sTel, forKey: PublicData.SHREAD_PATIENT_PHONE);
+                self.getPatientData(sTelNumber: sTel)
+            }
+        }))
+        
+        self.present(alert, animated: true, completion: nil)
+    }
+    
     func setPatientState(mHRM:Int, mSPO2:Int) -> String {
         
         var sPatientMessage:String! = nil
@@ -110,7 +137,7 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate {
             
             /* POINT - : Popup Alert Dialog */
             let mPopup = PopupDialog(title: "Error, Send SMS", message: "메세지 전송에 문제가 발생하였습니다.", image: nil)
-            let mButton = DefaultButton(title: "Confirm", dismissOnTap: false) { mPopup.dismiss() }
+            let mButton = DefaultButton(title: "확인", dismissOnTap: false) { mPopup.dismiss() }
             self.present(mPopup, animated: true, completion: nil)
         }
         

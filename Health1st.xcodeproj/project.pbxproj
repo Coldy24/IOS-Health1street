@@ -18,16 +18,18 @@
 		272E43DC1FB9E41300C8EF42 /* ic_settings_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 272E43D91FB9E41300C8EF42 /* ic_settings_white.png */; };
 		272E43DD1FB9E41300C8EF42 /* ic_assignment_ind_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 272E43DA1FB9E41300C8EF42 /* ic_assignment_ind_white.png */; };
 		272E43DE1FB9E41300C8EF42 /* ic_place_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 272E43DB1FB9E41300C8EF42 /* ic_place_white.png */; };
+		2732C58D1FC3F0DA00DB3722 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2732C58C1FC3F0DA00DB3722 /* SweetAlert.swift */; };
 		27497C281FBEFDE10058D375 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27497C271FBEFDE10058D375 /* MapViewController.swift */; };
-		27497C2C1FBF08D00058D375 /* ApiGatewayMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27497C2B1FBF08CF0058D375 /* ApiGatewayMac.framework */; };
-		27497C2D1FBF08D00058D375 /* ApiGatewayMac.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27497C2B1FBF08CF0058D375 /* ApiGatewayMac.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		27497C341FBF0E630058D375 /* NMapViewResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27497C331FBF0E620058D375 /* NMapViewResources.swift */; };
 		27497C371FBF12510058D375 /* NMapViewerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27497C361FBF12510058D375 /* NMapViewerSDK.framework */; };
 		2755D7E21FBB304500ACEF4A /* ic_patient.png in Resources */ = {isa = PBXBuildFile; fileRef = 2755D7E11FBB304200ACEF4A /* ic_patient.png */; };
 		27668D021FBC61040026BB61 /* PatientAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27668D011FBC61040026BB61 /* PatientAdapter.swift */; };
+		2777FC351FC452AF008DAA50 /* ic_assessment_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 2777FC341FC452AE008DAA50 /* ic_assessment_white.png */; };
 		277D16B31FBDE869006C9EE7 /* ic_sync_white_32dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 277D16B21FBDE867006C9EE7 /* ic_sync_white_32dp.png */; };
 		277D16B51FBDEFC7006C9EE7 /* PublicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277D16B41FBDEFC7006C9EE7 /* PublicData.swift */; };
 		27A048251FC30C960035A4C5 /* pubtrans_exact_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A048241FC30C960035A4C5 /* pubtrans_exact_default@2x.png */; };
+		27B41F5F1FC3FA3A0055E09A /* Pods_Health1st.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B41F601FC3FA3A0055E09A /* Pods_Health1st.framework */; };
+		27BF13191FC456BA006F69A4 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BF13181FC456BA006F69A4 /* ChartViewController.swift */; };
 		27DC42A51FBC93F900D4EBA6 /* ic_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DC42A41FBC93F700D4EBA6 /* ic_user.png */; };
 		27DC42A71FBC948200D4EBA6 /* ic_call.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DC42A61FBC948000D4EBA6 /* ic_call.png */; };
 		27DC42A91FBC94C800D4EBA6 /* ic_message.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DC42A81FBC94C700D4EBA6 /* ic_message.png */; };
@@ -36,9 +38,10 @@
 		27DC42AF1FBC955D00D4EBA6 /* ic_circle_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DC42AC1FBC955B00D4EBA6 /* ic_circle_red.png */; };
 		27DC42B41FBC995200D4EBA6 /* ic_o2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DC42B21FBC995100D4EBA6 /* ic_o2.png */; };
 		27DC42B51FBC995200D4EBA6 /* ic_cardiogram.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DC42B31FBC995200D4EBA6 /* ic_cardiogram.png */; };
+		27E78B9A1FC3ED790021DADA /* ApiGatewayMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E78B991FC3ED790021DADA /* ApiGatewayMac.framework */; };
+		27E78B9B1FC3ED790021DADA /* ApiGatewayMac.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27E78B991FC3ED790021DADA /* ApiGatewayMac.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		27F2CAAD1FC32A61004FB0E2 /* RealmLocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F2CAAC1FC32A61004FB0E2 /* RealmLocationData.swift */; };
 		27F2CAB21FC33E7A004FB0E2 /* RealmHealthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F2CAB11FC33E7A004FB0E2 /* RealmHealthData.swift */; };
-		D7CFE1FC6B599454B8FEFD4C /* Pods_Health1st.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D59B5CA8F5E37FF7C7EEAFF /* Pods_Health1st.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,7 +51,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				27497C2D1FBF08D00058D375 /* ApiGatewayMac.framework in Embed Frameworks */,
+				27E78B9B1FC3ED790021DADA /* ApiGatewayMac.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,17 +72,19 @@
 		272E43D91FB9E41300C8EF42 /* ic_settings_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_settings_white.png; sourceTree = "<group>"; };
 		272E43DA1FB9E41300C8EF42 /* ic_assignment_ind_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_assignment_ind_white.png; sourceTree = "<group>"; };
 		272E43DB1FB9E41300C8EF42 /* ic_place_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_place_white.png; sourceTree = "<group>"; };
+		2732C58C1FC3F0DA00DB3722 /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
 		27497C271FBEFDE10058D375 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		27497C2B1FBF08CF0058D375 /* ApiGatewayMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ApiGatewayMac.framework; sourceTree = "<group>"; };
-		27497C2F1FBF08ED0058D375 /* NMapViewerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMapViewerSDK.framework; path = "../../Downloads/maps.ios-master/Frameworks/NMapViewerSDK.framework"; sourceTree = "<group>"; };
 		27497C321FBF0A500058D375 /* MapHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapHeader.h; sourceTree = "<group>"; };
 		27497C331FBF0E620058D375 /* NMapViewResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NMapViewResources.swift; sourceTree = "<group>"; };
 		27497C361FBF12510058D375 /* NMapViewerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMapViewerSDK.framework; path = "maps.ios-master/Frameworks/NMapViewerSDK.framework"; sourceTree = "<group>"; };
 		2755D7E11FBB304200ACEF4A /* ic_patient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_patient.png; sourceTree = "<group>"; };
 		27668D011FBC61040026BB61 /* PatientAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientAdapter.swift; sourceTree = "<group>"; };
+		2777FC341FC452AE008DAA50 /* ic_assessment_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_assessment_white.png; sourceTree = "<group>"; };
 		277D16B21FBDE867006C9EE7 /* ic_sync_white_32dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_sync_white_32dp.png; sourceTree = "<group>"; };
 		277D16B41FBDEFC7006C9EE7 /* PublicData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicData.swift; sourceTree = "<group>"; };
 		27A048241FC30C960035A4C5 /* pubtrans_exact_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pubtrans_exact_default@2x.png"; path = "maps.ios-master/NMapSampleSwift/NMapSampleSwift/Assets.xcassets/pubtrans_exact_default.imageset/pubtrans_exact_default@2x.png"; sourceTree = SOURCE_ROOT; };
+		27B41F601FC3FA3A0055E09A /* Pods_Health1st.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Health1st.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BF13181FC456BA006F69A4 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 		27DC42A41FBC93F700D4EBA6 /* ic_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_user.png; sourceTree = "<group>"; };
 		27DC42A61FBC948000D4EBA6 /* ic_call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_call.png; sourceTree = "<group>"; };
 		27DC42A81FBC94C700D4EBA6 /* ic_message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_message.png; sourceTree = "<group>"; };
@@ -88,6 +93,7 @@
 		27DC42AC1FBC955B00D4EBA6 /* ic_circle_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_circle_red.png; sourceTree = "<group>"; };
 		27DC42B21FBC995100D4EBA6 /* ic_o2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_o2.png; sourceTree = "<group>"; };
 		27DC42B31FBC995200D4EBA6 /* ic_cardiogram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_cardiogram.png; sourceTree = "<group>"; };
+		27E78B991FC3ED790021DADA /* ApiGatewayMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApiGatewayMac.framework; path = "maps.ios-master/Frameworks/ApiGatewayMac.framework"; sourceTree = "<group>"; };
 		27F2CAAC1FC32A61004FB0E2 /* RealmLocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmLocationData.swift; sourceTree = "<group>"; };
 		27F2CAB11FC33E7A004FB0E2 /* RealmHealthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHealthData.swift; sourceTree = "<group>"; };
 		77EEE230EA070E9EC96736B9 /* Pods-Health1st.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health1st.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Health1st/Pods-Health1st.debug.xcconfig"; sourceTree = "<group>"; };
@@ -100,9 +106,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B41F5F1FC3FA3A0055E09A /* Pods_Health1st.framework in Frameworks */,
 				27497C371FBF12510058D375 /* NMapViewerSDK.framework in Frameworks */,
-				27497C2C1FBF08D00058D375 /* ApiGatewayMac.framework in Frameworks */,
-				D7CFE1FC6B599454B8FEFD4C /* Pods_Health1st.framework in Frameworks */,
+				27E78B9A1FC3ED790021DADA /* ApiGatewayMac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +118,7 @@
 		272E43BA1FB9E32B00C8EF42 = {
 			isa = PBXGroup;
 			children = (
-				27497C2B1FBF08CF0058D375 /* ApiGatewayMac.framework */,
+				27E78B991FC3ED790021DADA /* ApiGatewayMac.framework */,
 				272E43C51FB9E32B00C8EF42 /* Health1st */,
 				71485FBAEEC1CE732B549D1E /* Pods */,
 				8EAA22F820B07DD18D2B1591 /* Frameworks */,
@@ -133,9 +139,11 @@
 			children = (
 				272E43D81FB9E3C700C8EF42 /* Resources */,
 				272E43C61FB9E32B00C8EF42 /* AppDelegate.swift */,
+				2732C58C1FC3F0DA00DB3722 /* SweetAlert.swift */,
 				272E43C81FB9E32B00C8EF42 /* ViewController.swift */,
 				27497C271FBEFDE10058D375 /* MapViewController.swift */,
 				27497C331FBF0E620058D375 /* NMapViewResources.swift */,
+				27BF13181FC456BA006F69A4 /* ChartViewController.swift */,
 				272E43CA1FB9E32B00C8EF42 /* Main.storyboard */,
 				272E43CD1FB9E32B00C8EF42 /* Assets.xcassets */,
 				272E43CF1FB9E32B00C8EF42 /* LaunchScreen.storyboard */,
@@ -153,6 +161,7 @@
 		272E43D81FB9E3C700C8EF42 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2777FC341FC452AE008DAA50 /* ic_assessment_white.png */,
 				27A048241FC30C960035A4C5 /* pubtrans_exact_default@2x.png */,
 				277D16B21FBDE867006C9EE7 /* ic_sync_white_32dp.png */,
 				27DC42B31FBC995200D4EBA6 /* ic_cardiogram.png */,
@@ -186,7 +195,7 @@
 		8EAA22F820B07DD18D2B1591 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				27497C2F1FBF08ED0058D375 /* NMapViewerSDK.framework */,
+				27B41F601FC3FA3A0055E09A /* Pods_Health1st.framework */,
 				27497C361FBF12510058D375 /* NMapViewerSDK.framework */,
 				9D59B5CA8F5E37FF7C7EEAFF /* Pods_Health1st.framework */,
 			);
@@ -260,6 +269,7 @@
 				27DC42A71FBC948200D4EBA6 /* ic_call.png in Resources */,
 				27DC42AF1FBC955D00D4EBA6 /* ic_circle_red.png in Resources */,
 				272DC0811FBA76E1009A6544 /* bg_indego_1.png in Resources */,
+				2777FC351FC452AF008DAA50 /* ic_assessment_white.png in Resources */,
 				272E43DC1FB9E41300C8EF42 /* ic_settings_white.png in Resources */,
 				272E43DE1FB9E41300C8EF42 /* ic_place_white.png in Resources */,
 				272E43D11FB9E32B00C8EF42 /* LaunchScreen.storyboard in Resources */,
@@ -338,6 +348,8 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Health1st/Pods-Health1st-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/EZLoadingActivity/EZLoadingActivity.framework",
 				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
@@ -346,6 +358,8 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZLoadingActivity.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
@@ -365,12 +379,14 @@
 			files = (
 				277D16B51FBDEFC7006C9EE7 /* PublicData.swift in Sources */,
 				27F2CAB21FC33E7A004FB0E2 /* RealmHealthData.swift in Sources */,
+				2732C58D1FC3F0DA00DB3722 /* SweetAlert.swift in Sources */,
 				27668D021FBC61040026BB61 /* PatientAdapter.swift in Sources */,
 				272E43C91FB9E32B00C8EF42 /* ViewController.swift in Sources */,
 				27497C281FBEFDE10058D375 /* MapViewController.swift in Sources */,
 				27497C341FBF0E630058D375 /* NMapViewResources.swift in Sources */,
 				27F2CAAD1FC32A61004FB0E2 /* RealmLocationData.swift in Sources */,
 				272E43C71FB9E32B00C8EF42 /* AppDelegate.swift in Sources */,
+				27BF13191FC456BA006F69A4 /* ChartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

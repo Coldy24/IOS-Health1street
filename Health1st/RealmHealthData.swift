@@ -8,11 +8,11 @@
 
 import RealmSwift
 
-public class RealmHealthData {
+public class RealmHealthData:Object {
     
     /* MARK - : Integer */
-    @objc dynamic var mHRM:Int8 = 0
-    @objc dynamic var mSPO2:Int8 = 0
+    @objc dynamic var mHRM:Int = 0
+    @objc dynamic var mSPO2:Int = 0
     
     /* MARK - : String */
     @objc dynamic var date:String! = nil

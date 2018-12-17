@@ -1,4 +1,4 @@
-# ■ IOS-Health1street
+# ■ IOS-Health1street <kbd>[Kyungpook National University](http://www.knu.ac.kr/wbbs/)</kbd>
 **[Capstone Design 1] Team School Health1st Apple Project. (Prof. 고석주)**
 
 <p align="center">

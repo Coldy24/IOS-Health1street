@@ -1,12 +1,8 @@
 # ■ IOS-Health1street
 **[Capstone Design 1] Team School Health1st Apple Project. (Prof. 고석주)**
 
-|:page_facing_up: syllabus for lecture 001|:page_facing_up: syllabus for lecture 002|
-|:---------------------------------------:|:---------------------------------------:|
-|![](https://user-images.githubusercontent.com/20036523/50081046-d2cf5680-0230-11e9-83a8-837940844378.jpg)|![](https://user-images.githubusercontent.com/20036523/50081047-d367ed00-0230-11e9-9854-f5a2e4727d8a.jpg)|
-
 <p align="center">
-  <img src="http://blogfiles.naver.net/MjAxNzExMjZfNjUg/MDAxNTExNjk2NDE3MjI0.RS7BDnSUMD9e3tMPtqJQ28EswLE-VzW2EfdJnNORMQkg.lVbw3RADcM02Eps6o3dqV_BKMKKDv1LX9AQ_j4yTV-kg.PNG.yeop9657/icon.png/">
+  <img src="http://blogfiles.naver.net/MjAxNzExMjZfNjUg/MDAxNTExNjk2NDE3MjI0.RS7BDnSUMD9e3tMPtqJQ28EswLE-VzW2EfdJnNORMQkg.lVbw3RADcM02Eps6o3dqV_BKMKKDv1LX9AQ_j4yTV-kg.PNG.yeop9657/icon.png/" width="350" height="350">
 </p>
 
 ## ★ Course Goals and Objectives
@@ -25,8 +21,6 @@ This Capstone Design Project 1 (CDP1) course is a team-based project class. Each
 
 * 일부 과제는 오픈 소스 SW 프로젝트로 진행함
 
-* * *
-
 ## ★ Course Description, Methods, and Materials
 
 1. This class is a project-based education, and thus the conventional teaching is not given.
@@ -36,6 +30,13 @@ This Capstone Design Project 1 (CDP1) course is a team-based project class. Each
 3. At the end of semester, each team is required to make and submit the final report.
 
 4. As the continuation of this CDP1, the corresponding CDP2 class will be open in the next semester.
+
+## ★ Syllabus for lecture
+
+|:page_facing_up: syllabus for lecture 001|:page_facing_up: syllabus for lecture 002|
+|:---------------------------------------:|:---------------------------------------:|
+|![](https://user-images.githubusercontent.com/20036523/50081046-d2cf5680-0230-11e9-83a8-837940844378.jpg)|![](https://user-images.githubusercontent.com/20036523/50081047-d367ed00-0230-11e9-9854-f5a2e4727d8a.jpg)|
+
 
 ## ★ REFERENCE
 
@@ -55,15 +56,11 @@ This Capstone Design Project 1 (CDP1) course is a team-based project class. Each
 
 ![Alt text](http://blogfiles.naver.net/MjAxNzExMjZfOSAg/MDAxNTExNjk1NjM0MDc1.g1jWCTOHJnrdtBEOizti8UWwg2o437rPAHZTT1evpTsg.nReurqyin_ka9fht3w3SJBlR2PXOskDK3ttQtzA7XcYg.JPEG.yeop9657/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C11.JPG "Application Class Diagram")
 
-* * *
-
 ## ★ Application Demo Play
   
 |:movie_camera: DEMO PLAY 1|:movie_camera:DEMO PLAY 2|
 |:------------------------:|:-----------------------:|
 |![](http://drive.google.com/uc?export=view&id=1gnhRrskwHE3_pVjWtnxfy85t08SNqVE-)|![](http://drive.google.com/uc?export=view&id=1Td1XmfIImiC70V1BYE7Dc6IVk1I-MSFP)|
-
-* * *
 
 ## ★ Developer Information
 

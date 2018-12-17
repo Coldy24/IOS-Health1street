@@ -37,15 +37,6 @@ This Capstone Design Project 1 (CDP1) course is a team-based project class. Each
 |:---------------------------------------:|:---------------------------------------:|
 |![](https://user-images.githubusercontent.com/20036523/50081046-d2cf5680-0230-11e9-83a8-837940844378.jpg)|![](https://user-images.githubusercontent.com/20036523/50081047-d367ed00-0230-11e9-9854-f5a2e4727d8a.jpg)|
 
-
-## ★ REFERENCE
-
-:airplane: [Android Application Version - Github](http://bit.ly/2Q0oEPP)
-
-:airplane: [Slide Share](https://www.slideshare.net/Yangchangyeop/university-83851915)
-
-:airplane: [Naver Blog](http://bit.ly/2OkxUk9)
-
 ## ★ Application Structure
 
 ![Alt text](http://blogfiles.naver.net/MjAxNzExMjZfMiAg/MDAxNTExNjk1NjMzOTMw.26_39lbWgSGQc-sbQSW_nHmw9HlrahOsKG_gV6d8LuUg.SRe9j8LkkQdJE78pOTWEml0ZZQP-rSuc4jinNoLHsDYg.JPEG.yeop9657/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C5.JPGg "Application Core Tech")
@@ -60,7 +51,15 @@ This Capstone Design Project 1 (CDP1) course is a team-based project class. Each
   
 |:movie_camera: DEMO PLAY 1|:movie_camera:DEMO PLAY 2|
 |:------------------------:|:-----------------------:|
-|![](http://drive.google.com/uc?export=view&id=1gnhRrskwHE3_pVjWtnxfy85t08SNqVE-)|![](http://drive.google.com/uc?export=view&id=1Td1XmfIImiC70V1BYE7Dc6IVk1I-MSFP)|
+|<img src="http://drive.google.com/uc?export=view&id=1gnhRrskwHE3_pVjWtnxfy85t08SNqVE-" width="750" height="750" />|<img src="http://drive.google.com/uc?export=view&id=1Td1XmfIImiC70V1BYE7Dc6IVk1I-MSFP" width="750" height="750" />|
+
+## ★ REFERENCE
+
+:airplane: [Android Application Version - Github](http://bit.ly/2Q0oEPP)
+
+:airplane: [Slide Share](https://www.slideshare.net/Yangchangyeop/university-83851915)
+
+:airplane: [Naver Blog](http://bit.ly/2OkxUk9)
 
 ## ★ Developer Information
 
